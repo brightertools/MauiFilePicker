@@ -16,10 +16,10 @@
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
 		<Title>$(AssemblyName)</Title>
 		<Description>File Picker (open and save) for MAUI apps. Alternative to FilePicker which is currently broken. Also support Save Picker.</Description>
-		<Copyright>Copyright 2023 Luke Vo</Copyright>
-		<PackageProjectUrl>https://github.com/datvm/LukeMauiFilePicker</PackageProjectUrl>
+		<Copyright>Copyright 2023 Brighter Tools Ltd</Copyright>
+		<PackageProjectUrl>https://github.com/brightertools/MauiFilePicker</PackageProjectUrl>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
-		<RepositoryUrl>https://github.com/datvm/LukeMauiFilePicker</RepositoryUrl>
+		<RepositoryUrl>https://github.com/brightertools/MauiFilePicker</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
 		<PackageTags>android;windows;ios;picker;file picker;maui;winui;maccatalyst</PackageTags>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>

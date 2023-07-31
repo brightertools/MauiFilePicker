@@ -79,18 +79,16 @@ partial class FilePickerService
     {
 
         readonly NSUrl url;
+
         public IosFile(NSUrl url)
         {
             this.url = url;
         }
 
-        public string FileName
-            => Path.GetFileName(url.Path!);
+        public string FileName => Path.GetFileName(url.Path!);
 
-        public FileResult? FileResult => null;
+        public FileResult FileResult => new FileResult(url.Path!);
 
-        public Task<Stream> OpenReadAsync()
-            => Task.FromResult(new FileStream(url.Path!, FileMode.Open) as Stream);
+        public Task<Stream> OpenReadAsync() => Task.FromResult(new FileStream(url.Path!, FileMode.Open) as Stream);
     }
-
 }

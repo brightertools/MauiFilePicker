@@ -53,7 +53,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\LukeMauiFilePicker\LukeMauiFilePicker.csproj" />
+	  <ProjectReference Include="..\LukeMauiFilePicker\BrighterTools.MauiFilePicker.csproj" />
 	</ItemGroup>
 
 </Project>
